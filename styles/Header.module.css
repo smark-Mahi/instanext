@@ -1,0 +1,9 @@
+.header{
+    height: 9vh;
+    width: 100vw;
+    border-bottom: 1px solid black;
+}
+.icon{
+    font-size: 50px;
+    color: rgba(233, 36, 36, 0.888);
+}

@@ -1,0 +1,60 @@
+.container{
+    width: 100vw;
+    height: calc(100vh-10vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    background-color: rgba(147, 139, 139, 0.424);
+}
+.img{
+    border-radius:50%;
+}
+.vertical{
+    display: flex;
+    font-size: 20px;
+    color: rgb(46, 42, 42);
+}
+.number{
+    color: black;
+}
+.accountname{
+    position: relative;
+    left: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    top: 10px;
+}
+.items{
+    line-height: 10px;
+}
+.about{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(63, 59, 59);
+}
+@media screen and (max-width:519px){
+    .container{
+        padding-left: 40px;
+        gap: 10px;
+    }
+    .img{
+        width: 60%;
+        height: 60%;
+    }
+    .accountname{
+        font-size: 80%;
+        font-weight: 700;
+    }
+    .about{
+        font-size: 50%;
+    }
+    
+    .vertical{
+        font-size: 1em;
+    }
+    .items{
+        width: 100%;
+    }
+}
